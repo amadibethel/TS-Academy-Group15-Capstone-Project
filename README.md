@@ -83,7 +83,7 @@ This is the capstone project for Group 15 of the Novara cohort at TS Academy. Th
 
 ## 🚀 Live Deployment
 
-🔗 [View Live Project](https://your-deployment-link.netlify.app)
+🔗 [View Live Project](https://your-deployment-link.vercel.app)
 
 > Hosted on Netlify / Vercel
 
@@ -92,7 +92,7 @@ This is the capstone project for Group 15 of the Novara cohort at TS Academy. Th
 ## 🔗 Links
 
 - 🏫 [TS Academy](https://tsacademyonline.com/)
-- 📁 [Group Repository](https://github.com/[your-username]/[repo-name])
+- 📁 [Group Repository](https://github.com/Jasin445/solar-system-explorer)
 
 ---
 

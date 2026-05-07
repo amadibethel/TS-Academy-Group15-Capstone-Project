@@ -187,11 +187,10 @@ Recommended structure:
 src/
  ├── assets/
  ├── components/
- ├── pages/
- ├── services/
+ ├── lib/
  ├── styles/
- ├── hooks/
- └── App.jsx
+ ├── App.jsx
+ └── main.jsx
 ```
 
 ---
