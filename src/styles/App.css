@@ -7,6 +7,18 @@
   margin: auto;
 }
 
+ 
+/* TYPOGRAPHY */
+ 
+h1 {
+  color: white;
+  font-size: 48px;
+  line-height: 121%;
+  font-weight: bold;
+  margin-bottom: 20px;
+  max-width: 700px;
+}
+
 .hero-banner {
   background-color: #051540;
   display: flex;
