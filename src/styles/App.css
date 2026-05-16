@@ -1,4 +1,12 @@
 
+/* LAYOUT CONTAINERS */
+.banner-wrapper {
+  max-width: 1440px;
+  padding-left: 8%;
+  padding-right: 8%;
+  margin: auto;
+}
+
 .hero-banner {
   background-color: #051540;
   display: flex;
@@ -20,6 +28,15 @@
 .hero-main {
   flex-basis: 45%;
   min-width: 560px;
+}
+
+.hero-paragraph {
+  color: #dddddd;
+  max-width: 534px;
+  margin-bottom: 43px;
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  line-height: 160%;
 }
  
 .hero-img {
