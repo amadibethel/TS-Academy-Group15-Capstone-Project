@@ -1,4 +1,5 @@
 import { Button } from "./ui/Button";
+import heroImage from "../assets/images/hero-img.png"
 
 const HeroSection = () => {
   return (
@@ -20,7 +21,7 @@ const HeroSection = () => {
           </div>
           <div className="hero-img">
             <img
-              src="https://res.cloudinary.com/jasond/image/upload/v1770030454/Image_tq8tf6.png"
+              src={heroImage}
               width="644px"
               height="644px"
               alt="hero image"
