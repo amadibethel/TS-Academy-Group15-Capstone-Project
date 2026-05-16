@@ -1,15 +1,14 @@
-
 /* LAYOUT CONTAINERS */
-.banner-wrapper {
+.banner-wrapper,
+.video-demo {
   max-width: 1440px;
   padding-left: 8%;
   padding-right: 8%;
   margin: auto;
 }
 
- 
 /* TYPOGRAPHY */
- 
+
 h1 {
   color: white;
   font-size: 48px;
@@ -26,7 +25,7 @@ h1 {
   flex-direction: column;
   align-items: center;
 }
- 
+
 .hero-flex-container {
   display: flex;
   align-items: center;
@@ -36,7 +35,7 @@ h1 {
   padding-bottom: 30px;
   padding-top: 20px;
 }
- 
+
 .hero-main {
   flex-basis: 45%;
   min-width: 560px;
@@ -50,7 +49,7 @@ h1 {
   letter-spacing: -0.02em;
   line-height: 160%;
 }
- 
+
 .hero-img {
   flex-basis: 55%;
   position: relative;
@@ -60,7 +59,7 @@ h1 {
   align-items: center;
   justify-content: center;
 }
- 
+
 .hero-img img {
   width: 100%;
   height: auto;
@@ -70,4 +69,88 @@ h1 {
   right: -8%;
   top: -30px;
 }
- 
+
+/* HOW IT WORKS SECTION */
+
+.how-it-works {
+  background: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 150px;
+}
+
+.video-demo .text-wrapper {
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* aspect-ratio: 16 / 9; */
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.video-container video {
+  width: 100%;
+  /* max-width: 1002px; */
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+  position: static;
+  height: 496px;
+}
+
+.photo-proof h2,
+.video-demo h2,
+.solar-system-table h2,
+.form-filling-section h2 {
+  color: #164baf;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.video-demo h2 {
+  margin-bottom: 4px;
+}
+
+.planet-diff p,
+.solar-system-table p,
+.form-filling-section p {
+  color: #0f2a44;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.video-demo {
+  display: grid;
+  justify-content: space-between;
+  align-items: stretch;
+  grid-template-columns: 0.9fr 1fr;
+  gap: 130px;
+}
+
+.video-demo p {
+  color: #0f2a44;
+  font-size: 18px;
+  line-height: 150%;
+  margin-bottom: 64px;
+}
+
+.muted-text {
+  color: #1274a4;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+small {
+  font-size: 16px;
+  color: #616161;
+}
