@@ -1,8 +1,1 @@
-
-const DifferenceBetweenPlanets = () => {
-  return (
-    <div>DifferenceBetweenPlanets</div>
-  )
-}
-
-export default DifferenceBetweenPlanets
+<section id="planet-data" className="difference-section">

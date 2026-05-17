@@ -1,0 +1,46 @@
+.planetary-facts-section {
+  padding: 4rem 2rem;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.planet-table {
+  width: 100%;
+  min-width: 700px;
+  border-collapse: collapse;
+}
+
+.planet-table th,
+.planet-table td {
+  padding: 14px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.planet-table th {
+  background-color: #2563eb;
+  color: white;
+}
+
+.planet-table tbody tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .planet-table {
+    min-width: 650px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 375px) {
+  .planet-table {
+    min-width: 600px;
+  }
+}
+
